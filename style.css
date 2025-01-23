@@ -18,7 +18,7 @@ body{
 }
 .relogio{
     position: relative;
-    background:url(/Clock/assets/images/Relógio.png) no-repeat;
+    background:url(Relógio.png) no-repeat;
     background-size: 200px;
     background-color: white;
     border-radius: 50%;
