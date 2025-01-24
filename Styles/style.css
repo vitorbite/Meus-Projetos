@@ -5,7 +5,8 @@
     font-family: oxanium;
 }
 body{
-    background:rgb(56, 55, 55);
+    background:url(../Background.jpg);
+    background-size: cover;
     margin: auto;
     overflow: hidden;
 }
@@ -18,7 +19,7 @@ body{
 }
 .relogio{
     position: relative;
-    background:url(Relógio.png) no-repeat;
+    background:url(../Relógio.png) no-repeat;
     background-size: 200px;
     background-color: white;
     border-radius: 50%;

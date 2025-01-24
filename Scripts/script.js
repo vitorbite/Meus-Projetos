@@ -3,11 +3,9 @@ const hand2 = document.getElementById('hand2');
 const hand3 = document.getElementById('hand3');
 let hora = document.getElementById('timer');
 let clock = document.querySelector('.relogio');
-let hidden1 = document.getElementsByClassName('hidden1');
-let hidden2 = document.getElementsByClassName('hidden2');
-let hidden3 = document.getElementsByClassName('hidden3');
+let buttons = document.getElementById('buttons');
 let cronometro = true;
-
+buttons.classList.add('hidden');
 
 document.addEventListener('click', (e)=>{
     let el = e.target;
@@ -17,14 +15,10 @@ document.addEventListener('click', (e)=>{
         clock.classList.add('hidden');
         hora.innerText = '00:00'
         hora.classList.remove('cronometro');
-        hidden1.classList.add('hidden');
-        hidden2.classList.add('hidden');
-        hidden3.classList.add('hidden');
+        buttons.classList.add('hidden');
         if(!cronometro){
             hora.classList.add('cronometro');
-            hidden1.classList.remove('hidden');
-            hidden2.classList.remove('hidden');
-            hidden3.classList.remove('hidden');
+            buttons.classList.remove('hidden');
 
         }
     }
