@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+@font-face {
+    font-family: digital-7;
+    src: url(font/digital-7.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -57,10 +63,11 @@ img{
 .timer{
     display: inline-block;
     position: relative;
+    font-family: digital-7;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35pt;
+    font-size: 41pt;
     letter-spacing: 2px;
     animation: pisca 0.8s alternate infinite;
     text-shadow: 2px 2px 0 black;
@@ -78,5 +85,5 @@ img{
 }
 .cronometro{
     animation: none;
-    font-size: 31pt;
+    font-size: 38pt;
 }
