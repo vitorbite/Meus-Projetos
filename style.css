@@ -72,3 +72,10 @@ img{
         opacity: 1;
     }
 }
+.hidden{
+    display: none;
+}
+.cronometro{
+    animation: none;
+    font-size: 31pt;
+}
